@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  background: linear-gradient(rgb(35, 35, 195), rgb(202, 38, 38));
+}
+
+.input-container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 10px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid gray;
+}
+input {
+  background-color: transparent;
+  border: none;
+  outline-style: none;
+  color: #fff;
+  margin-left: 4px;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
